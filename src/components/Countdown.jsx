@@ -34,9 +34,7 @@ const MyTimer = ({ expiryTimestamp }) => {
     );
 }
 const Countdown = () => {
-    const time = new Date();
-    time.setSeconds(time.getSeconds() + 3); // have to change
-    // new Date(2022, 3, 5, 0, 0, 0, 0); // use this
+    const time = new Date(2022, 3, 5, 0, 0, 0, 0);
 
     return (
         <div>

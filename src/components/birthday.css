@@ -174,3 +174,26 @@ p {
     outline-color: #333;
     outline-style: dotted;
 }
+
+.clickhere2 {
+    position: absolute;
+    left: 37vw;
+    top: 14vh;
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    background: -webkit-linear-gradient(#e76f51, #E9C46A);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: visible 10s;
+}
+
+@keyframes visible {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

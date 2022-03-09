@@ -1,0 +1,33 @@
+.crousel {
+    position: relative;
+    margin: 103px 0 0 31vw;
+    width: 27vw;
+    height: 0;
+    padding: 0;
+}
+
+.clickhere3 {
+    position: absolute;
+    left: 62vw;
+    top: 45vh;
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    background: -webkit-linear-gradient(#e76f51, #E9C46A);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.clickhere4 {
+    position: absolute;
+    left: 9vw;
+    top: 45vh;
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    background: -webkit-linear-gradient(#e76f51, #E9C46A);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
