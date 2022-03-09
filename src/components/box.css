@@ -14,7 +14,7 @@
     border-radius: 50%;
     background-color: rgba(0, 0, 0, 0.4);
     top: 403px;
-    left: 665px;
+    left: 673px;
 }
 
 input#click {
@@ -241,4 +241,17 @@ input#click {
     to {
         background-color: #1d2d44;
     }
+}
+
+.clickhere {
+    position: absolute;
+    left: 14vw;
+    top: 36vh;
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+    font-size: 43px;
+    background: -webkit-linear-gradient(#e76f51, #E9C46A);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

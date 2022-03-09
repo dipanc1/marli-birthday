@@ -3,8 +3,8 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #073b4c;
-    margin: -16px -8px 8px -8px;
+    background-color: #FFD54F;
+    /* margin: -16px -8px 8px -8px; */
 }
 
 .birthdayCard {
@@ -141,15 +141,29 @@
 
 p {
     font-family: 'Brush Script MT', cursive;
-    margin: 40px;
+    margin: 0;
     color: #333;
 }
 
 .name {
     position: absolute;
-    left: 150px;
-    top: 200px;
+    left: 3px;
+    top: 122px;
     color: #333;
+}
+
+.name2 {
+    position: absolute;
+    left: 188px;
+    top: 122px;
+    color: #333;
+}
+
+.name3 {
+    position: absolute;
+    left: 126px;
+    top: 122px;
+    color: #ff0202;
 }
 
 .back {

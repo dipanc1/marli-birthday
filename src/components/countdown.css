@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     height: 100vh;
-    margin: -8px -7px -8px -9px;
+    /* margin: -8px -7px -8px -9px; */
     align-items: center;
     background-color: #ffd54f;
     display: flex;
