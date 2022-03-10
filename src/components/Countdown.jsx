@@ -20,7 +20,7 @@ const MyTimer = ({ expiryTimestamp }) => {
     return (
         isRunning ?
             (<div className="container">
-                {/* <h1 id="headline" > Time Till My Baby's Birthday </h1> */}
+                <h1 id="headline" > Time Till My Baby's Birthday </h1>
                 <div id="countdown" >
                     <ul>
                         <li><span id="days">{dayTime}</span>days</li>
@@ -34,7 +34,7 @@ const MyTimer = ({ expiryTimestamp }) => {
     );
 }
 const Countdown = () => {
-    const time = new Date(2022, 3, 5, 0, 0, 0, 0);
+    const time = new Date();
 
     return (
         <div>

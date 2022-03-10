@@ -17,7 +17,7 @@ const Box = () => {
                 <div className="birthday-gift">
                     <div className="gift">
                         <input id='click' type='checkbox' />
-                        <label className='click' for='click' onClick={handleClick}></label>
+                        <label className='click' htmlFor='click' onClick={handleClick}></label>
                         <div className="wishes">Happy Birthday!</div>
                         <div className="sparkles">
                             <div className="spark1"></div>
