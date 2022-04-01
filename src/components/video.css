@@ -38,3 +38,25 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+@media all and (max-width: 600px) {
+    .clickhere8 {
+        left: -4vw;
+        top: 83vh;
+        font-size: 22px;
+    }
+    .clickhere9 {
+        left: -31vw;
+        top: 68vh;
+        font-size: 22px;
+    }
+    .video {
+        position: absolute;
+        top: 4vh;
+        left: 37vw;
+    }
+    .videoPlayer {
+        margin: 39px 0 0 -35vw;
+        width: 85vw;
+    }
+}
