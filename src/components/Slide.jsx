@@ -1,6 +1,7 @@
 import React from 'react'
 import { Carousel } from '3d-react-carousal';
 import './slide.css';
+import Video from './Video';
 
 let slides = [
     <img src="https://res.cloudinary.com/dipanc1/image/upload/v1646847470/birthday_web_app/24_cxtbv3.jpg" alt="1" />,
@@ -30,13 +31,23 @@ let slides = [
 ];
 
 const Slide = () => {
+    const [video, setVideo] = React.useState(false);
+    const handleClick = () => {
+        setVideo(true);
+    }
     return (
-        <>
-            <h1 className='clickhere3'>Happy Happy Birthday, My Doll</h1>
-            <div className="crousel">
-                <Carousel slides={slides} interval={1000} />
-            </div>
-            <h1 className='clickhere4'>My Lovely Baby</h1>
+        <>{!video ?
+            (
+                <>
+                    <h1 className='clickhere3'>Happy Happy Birthday, My Doll</h1>
+                    <div className="crousel">
+                        <Carousel slides={slides} interval={1000} />
+                    </div>
+                    <h1 className='clickhere4'>My Lovely Baby</h1>
+                    <h5 className='clickhere5' onClick={handleClick}>Click Here, after seeing the slideshow...</h5>
+                </>
+            )
+            : <Video />}
         </>
     )
 }

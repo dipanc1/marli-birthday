@@ -197,3 +197,34 @@ p {
         opacity: 1;
     }
 }
+
+@media all and (max-width: 600px) {
+    .clickhere2 {
+        left: 13vw;
+        top: 11vh;
+        font-size: 14px;
+    }
+    .cardFront {
+        display: none;
+    }
+    .cardInside {
+        width: 280px;
+        height: 446px;
+        left: -16px;
+    }
+    .name2 {
+        left: 182px;
+        top: 104px;
+    }
+    .name3 {
+        left: 126px;
+        top: 104px;
+    }
+    .name {
+        left: 3px;
+        top: 104px;
+    }
+    p {
+        margin: 21px;
+    }
+}

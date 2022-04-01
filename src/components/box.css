@@ -255,3 +255,16 @@ input#click {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+@media all and (max-width: 600px) {
+    .birthday-gift:before {
+        top: 518px;
+        left: 102px;
+    }
+    .birthday-gift {
+        height: 143vh;
+    }
+    .clickhere {
+        top: 16vh;
+    }
+}

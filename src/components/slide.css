@@ -31,3 +31,39 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.clickhere5 {
+    position: absolute;
+    left: 2vw;
+    top: 76vh;
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+    font-size: 17px;
+    background: -webkit-linear-gradient(#e76f51, #E9C46A);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+@media all and (max-width: 600px) {
+    .clickhere3 {
+        left: 37vw;
+        top: 83vh;
+        font-size: 9px;
+    }
+    .clickhere4 {
+        left: 4vw;
+        top: 80vh;
+        font-size: 10px;
+    }
+    .clickhere5 {
+        left: 4vw;
+        top: 80vh;
+        font-size: 10px;
+    }
+    .crousel {
+        margin: 23px 0 0 1vw;
+        width: 93vw;
+    }
+}

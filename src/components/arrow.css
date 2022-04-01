@@ -71,3 +71,12 @@
         background-color: #E76F51;
     }
 }
+
+@media all and (max-width: 600px) {
+    .loading-frame {
+        position: absolute;
+        top: 33%;
+        left: 53%;
+        transform: rotate(90deg);
+    }
+}

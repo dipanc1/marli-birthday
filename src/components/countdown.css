@@ -33,22 +33,16 @@ li span {
     font-size: 4.5rem;
 }
 
-.emoji {
-    display: none;
-    padding: 1rem;
-}
-
-.emoji span {
-    font-size: 4rem;
-    padding: 0 .5rem;
-}
-
-@media all and (max-width: 768px) {
+@media all and (max-width: 600px) {
     h1 {
-        font-size: calc(1.5rem * var(--smaller));
+        font-size: calc(1rem * var(--smaller));
+        margin: 0 0 0 0;
+    }
+    #countdown ul {
+        padding-left: 0;
     }
     li {
-        font-size: calc(1.125rem * var(--smaller));
+        font-size: small;
     }
     li span {
         font-size: calc(3.375rem * var(--smaller));
