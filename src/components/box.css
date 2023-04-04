@@ -247,8 +247,8 @@ input#click {
 
 .clickhere {
     position: absolute;
-    left: 12vw;
-    bottom: 5vh;
+    left: 10vw;
+    bottom: 3vh;
     font-family: 'Arial', sans-serif;
     text-transform: uppercase;
     font-size: 43px;

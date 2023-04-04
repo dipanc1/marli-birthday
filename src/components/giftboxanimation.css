@@ -1,13 +1,8 @@
-body {
-    margin: 0;
-    padding: 0;
+.ppp {
     overflow: hidden;
-    /* background: #f06a19; */
-}
-
-.App {
     font-family: sans-serif;
     text-align: center;
+    background: #f06a19;
 }
 
 .box {

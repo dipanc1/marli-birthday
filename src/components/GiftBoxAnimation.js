@@ -46,7 +46,7 @@ export default function GiftBoxAnimation({ setCard }) {
     }
 
     return (
-        <div className="App">
+        <div className="ppp">
             <Confetti open={jump === "jump"} />
             <div className="img-container">
                 <img className={`kuku ${jump}`} src={kuku} alt="kuku" />

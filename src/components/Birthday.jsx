@@ -29,7 +29,9 @@ const Birthday = () => {
                                 <h3 className="back">Herzlichen Glückwunsch zum Geburtstag mein Schatz!!</h3>
                                 <br />
                                 <p>Meine Babypuppe,</p>
-                                <p>Du weißt, wie viel du mir bedeutest, mein Schatz, ich vermisse dich jeden Tag. Ich hoffe, wir können so schnell wie möglich vereint sein
+                                <p>Du weißt, wie viel du mir bedeutest, mein Schatz, ich vermisse dich jeden Tag. Ich hoffe, wir können so schnell wie möglich vereint sein </p>
+                                <p>Ich möchte alle deine Geburtstage mit dir verbringen, meine Liebe, meine Babypuppe, meine süßeste und schönste
+                                    {/* chekc it TODO */}
                                     <br />
                                     <br />
                                     dein

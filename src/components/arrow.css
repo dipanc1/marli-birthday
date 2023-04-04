@@ -1,7 +1,7 @@
 .loading-frame {
     position: absolute;
     bottom: 10%;
-    left: 36%;
+    left: 40%;
 }
 
 .circle {
@@ -77,8 +77,8 @@
 @media all and (max-width: 600px) {
     .loading-frame {
         position: absolute;
-        top: 33%;
-        left: 53%;
+        top: 45%;
+        left: 1%;
         transform: rotate(90deg);
     }
 }
