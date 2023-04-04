@@ -1,5 +1,4 @@
 import React from 'react'
-import { Carousel } from '3d-react-carousal';
 import './slide.css';
 import Video from './Video';
 import im1 from './images/1.jpg';
