@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #FFD54F;
+    background-color: #f06a19;
     /* margin: -16px -8px 8px -8px; */
 }
 
@@ -182,7 +182,7 @@ p {
     font-family: 'Arial', sans-serif;
     text-transform: uppercase;
     font-size: 20px;
-    background: -webkit-linear-gradient(#e76f51, #E9C46A);
+    background: -webkit-linear-gradient(#00D3CD, #fffaa4);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

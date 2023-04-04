@@ -1,6 +1,6 @@
 .loading-frame {
     position: absolute;
-    top: 34%;
+    bottom: 10%;
     left: 36%;
 }
 
@@ -9,7 +9,7 @@
     height: 15px;
     width: 15px;
     border-radius: 15px;
-    background-color: #E9C46A;
+    background-color: #fffaa4;
     animation: animate linear 2s infinite;
 }
 
@@ -63,12 +63,14 @@
 }
 
 @keyframes animate {
+
     0%,
     100% {
-        background-color: #E9C46A;
+        background-color: #fffaa4;
     }
+
     50% {
-        background-color: #E76F51;
+        background-color: #00D3CD;
     }
 }
 

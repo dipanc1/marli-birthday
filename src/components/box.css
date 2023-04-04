@@ -1,12 +1,12 @@
-.birthday-gift {
+/* .birthday-gift {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-}
+} */
 
-.birthday-gift:before {
+/* .birthday-gift:before {
     content: "";
     position: absolute;
     width: 170px;
@@ -15,13 +15,13 @@
     background-color: rgba(0, 0, 0, 0.4);
     top: 403px;
     left: 673px;
-}
+} */
 
 input#click {
     display: none;
 }
 
-.gift {
+/* .gift {
     position: relative;
     width: 150px;
     height: 100px;
@@ -43,7 +43,7 @@ input#click {
     box-shadow: inset 0 10px rgba(0, 0, 0, 0.3);
     width: 150px;
     height: 100px;
-}
+} */
 
 .click {
     position: absolute;
@@ -229,6 +229,7 @@ input#click {
     from {
         background-color: #d00000;
     }
+
     to {
         background-color: #0081a7;
     }
@@ -238,6 +239,7 @@ input#click {
     from {
         background-color: #8cff00;
     }
+
     to {
         background-color: #1d2d44;
     }
@@ -246,11 +248,11 @@ input#click {
 .clickhere {
     position: absolute;
     left: 12vw;
-    top: 37vh;
+    bottom: 5vh;
     font-family: 'Arial', sans-serif;
     text-transform: uppercase;
     font-size: 43px;
-    background: -webkit-linear-gradient(#e76f51, #E9C46A);
+    background: -webkit-linear-gradient(#00D3CD, #fffaa4);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -261,9 +263,11 @@ input#click {
         top: 518px;
         left: 102px;
     }
+
     .birthday-gift {
         height: 143vh;
     }
+
     .clickhere {
         top: 16vh;
     }
